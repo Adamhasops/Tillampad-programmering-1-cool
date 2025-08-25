@@ -1,18 +1,43 @@
-
-.navbar{
-    height: 10%;
-    height: 100%;
-    background: brown;
+div.navbar h4{
+    width: 10%;
+    
+}
+div.navbar{
+    margin: 0;
+    background: rgb(0, 0, 0);
     color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5px;
+    border-style: solid;
+
+
+
 
 }
-.navbar-left{
-    width: 50%;
-    display: flex;
-    justify-content: left;
+div.navbar-left{
+
 }
-.navbar-right{
+div.navbar a{
     width: 100%;
     display: flex;
     justify-content: right;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+
 }
+div.navbar a:hover{
+    color: grey;
+}
+div.navbarlower{
+    display: flex;
+    
+}
+div.navbar-left img{
+height: 100%;
+
+}
+
+
