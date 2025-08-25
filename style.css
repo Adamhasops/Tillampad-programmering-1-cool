@@ -1,7 +1,18 @@
-body{
-    background-color: blue;
+
+.navbar{
+    height: 10%;
+    height: 100%;
+    background: brown;
+    color: white;
+
 }
-h1{
-    font-size: 100px;
-    color: crimson;
+.navbar-left{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.navbar-right{
+    width: 100%;
+    display: flex;
+    justify-content: right;
 }
